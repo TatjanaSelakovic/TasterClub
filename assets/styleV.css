@@ -1,0 +1,386 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo img{
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top: 35px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 40px;
+    color: #ffcc66;
+  }
+
+  .gifts{
+      border: 5px double #ffcc66;
+      padding: 15px 20px;
+      margin: 0;
+  }
+
+  .boxMain{
+      background: url("./images/homepage.jpg");
+      background-size: 100%;
+      background-position: bottom;
+     }
+
+.centar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  
+}
+
+.prvi{
+    margin-top: 100px;
+    padding: 10px 70px;
+}
+.prvi h1{
+    color: #ffcc66;
+    font-size: 40px;
+}
+
+.prvi p{
+    color: white;
+    margin: 15px 0;
+}
+
+.prvi .link1 {
+    color: black;
+    border: 5px double black;
+    background: #ffcc66;
+    margin-right: 20px;
+    
+}
+
+.centar a{
+    display: inline-block;
+    text-decoration: none;
+    color:#ffcc66 ;
+    border: 5px double #ffcc66;
+    padding: 15px 20px;
+}
+
+.drugi{
+    padding-top: 30px;
+    
+}
+
+.wrap{
+    padding-top: 40px;
+}
+
+
+.slicice1{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    
+}
+
+.slicice img{
+    width: 200px;
+    height: 200px;
+}
+
+.slicice{
+    background: rgb(42, 43, 42);
+    padding: 30px;
+    text-align: center;
+    width: 24%;
+}
+
+.slicice h2{
+    color: #ffcc66;
+    margin-top:15px;
+}
+
+.slicice p{
+    color: rgb(158, 154, 154);
+}
+
+.slicice a{
+    text-decoration: none;
+    color: #ffcc66;
+    border: 5px double;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 20px;
+}
+
+.naslov{
+    text-align: center;
+    color: rgb(158, 154, 154);
+}
+
+
+
+.wrap .naslov p{
+    color: white;
+    margin:10px 0;
+}
+
+.boxDrugi{
+    background: rgb(26, 25, 25);
+    padding-bottom: 30px;
+}
+
+.stockBar{
+    display: flex;
+    background: rgb(42, 43, 42);
+    margin-top: 20px;
+}
+
+.slika1 img{
+    margin:20px;
+    padding: 10px 40px;
+}
+
+.desno1{
+    text-align: center;
+    padding: 40px 100px;
+}
+
+.desno1 h2{
+    color: #ffcc66;
+}
+
+.desno1 h4{
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.desno1 p{
+    color: rgb(158, 154, 154); 
+}
+
+.desno1 a{
+    border: 5px double #ffcc66;
+    text-decoration: none;
+    color: #ffcc66;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.naslov2{
+    text-align: center;
+    color:rgb(158, 154, 154);
+}
+.naslov2 h1{
+    padding: 30px 0;
+}
+
+.boxTreci .naslov2 h3{
+    color: white;
+    padding-bottom: 30px;
+}
+
+.boxTreci{
+    background:rgb(42, 43, 42) ;
+}
+
+.cetiriPodele{
+    display: flex;
+    background: rgb(42, 43, 42);
+}
+
+.podele{
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    line-height: 1.5;
+}
+
+.podele h4{
+    padding: 10px 0;
+    color:#ffcc66;
+}
+
+.podele a{
+    text-align: left;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    justify-content: space-between;
+    width: 400px;
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.gift a{
+    text-decoration: none;
+    color: black;
+    background: #ffcc66;
+    border: 5px double;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.prvi1 a{
+    text-decoration: none;
+    color: black;
+    background:#ffcc66 ;
+    border: 5px double;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+
+.drugi2 a{
+    text-decoration: none;
+    color: #ffcc66;
+    border: 5px double;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.boxPeti{
+    background: url(./images/homepage.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.gift{
+    text-align: center;
+    color: white;
+}
+
+.gift h1{
+    color: #ffcc66;
+    padding: 20px 0;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    
+}
+
+@media(max-width:1200px){
+    .drugi img{
+        width: 100%;
+
+    }
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .wrap{
+        padding-top:20px;
+    }
+}
+
+@media(max-width:991px){
+    .gifts{
+        display: inline-block;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    .navBar{
+        align-items: center;
+    }
+    .logo img{
+        padding-top: 28px;
+    }
+    .stockBar{
+        flex-flow: wrap;
+    }
+    .slika1{
+        width: 100%;
+        text-align: center;
+    }
+    .slicice{
+        width:33%;
+    }
+}
+
+@media(max-width:767px){
+    .navBar{
+        flex-flow: wrap;
+    }
+    ul{
+        padding-left: 20px;
+    }
+    .centar{
+        flex-flow: wrap;
+    }
+    .centar a{
+        padding: 15px 10px;
+    }
+    .drugi img{
+        max-width: 100px;
+    }
+    .boxMain{
+        background-size: cover;
+    }
+    .drugi{
+        width:100%;
+        text-align: center;
+    }
+    .slicice{
+        width: 49%;
+        padding: 0;
+    }
+    .slika1 img{
+        padding: 0;
+    }
+    .cetiriPodele{
+        flex-flow: wrap;
+    }
+    .naslov2{
+        padding: 20px 20px;
+    }
+    .gift{
+        padding:20px 30px;
+    }
+}
+
+@media(max-width:479px){
+    .prvi{
+        margin-top:50px;
+    }
+    .prvi h1{
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
